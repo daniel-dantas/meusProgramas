@@ -6,7 +6,7 @@ int main (){
     system("apt-get install snapd");
     system("apt-get install virtualbox-qt");
     system("apt-get install git");
-    system("apt-get install whatsapp-desktop");    
+    system("apt-get install whatsapp-desktop");
     system("snap install node --channel=12/stable --classic");
     system("snap install insomnia");
     system("snap install code --classic");
@@ -21,6 +21,8 @@ int main (){
     system("yarn global add @vue/cli");
     system("yarn global add create-react-app");
     system("yarn global add react-native-cli");
-    
+    system("apt-get install zsh");    
+    system("sh -c \"$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\"");
+    system("reboot");
     return 0;
 }
